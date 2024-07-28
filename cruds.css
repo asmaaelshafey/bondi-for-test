@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #f3eded;
+color: rgba(2, 2, 87, 0.788);
+}
+#crud{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+#head{
+    text-transform: uppercase; 
+    margin: 10px 0 ;
+
+}
+input {
+    width :100%;
+    margin: 5px ;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    color:black;
+    padding: 5px;
+    border-radius: 4px;
+}
+input:focus{
+    background-color: #aaa;
+    scale: 1.1;
+
+}
+#pricediv input {
+ width : 19.5% ;
+}
+
+#total{
+    background-color: rgba(211, 8, 8, 0.638);
+    height: 20px;
+    padding: 3px 5px;
+    line-height: 19px;
+    border-radius: 4px;
+  
+   
+}
+#total::before{
+    content:"total: ";
+    
+    
+}
+ #btndiv {
+    display: flex;
+    justify-content: space-between;
+} 
+#inputs button ,#btndiv button ,#deleteallbtn{
+    margin: 5px;
+    background-color: #c7a2d3;
+    border-radius: 4px;
+    height: 25px;
+    border: none;
+    padding: 5px 10px;
+    text-transform: capitalize
+}
+#btndiv button{
+   width: 45%;
+   height: 30px;
+}
+#create,#deleteallbtn{
+    
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#create:hover,#deleteallbtn:hover,button:hover,#btndiv button:hover{
+    background-color: #c379db;
+    letter-spacing: 1.5px;
+    
+}
+table{
+    width : 80%;
+    text-align: center;
+}
+table th ,table td{
+    padding: 3px;
+}
+table th{
+    text-transform: uppercase;
+}
+table button{
+    background-color:  #c7a2d3;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
